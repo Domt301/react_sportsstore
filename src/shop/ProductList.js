@@ -18,7 +18,7 @@ export class ProductList extends Component {
                         { p.description }
                         <button className="btn btn-success btn-sm float-right"
                             onClick={ () => this.props.addToCart(p) } >
-                                Add To Cart
+                                Add To Cart Test
                         </button>                                            
                     </div>                
                 </div>
