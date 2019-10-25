@@ -1,4 +1,9 @@
 build:
   docker:
     web: Dockerfile
-      command: . -t sportsstore -f Dockerfile
+release:
+  image: web
+run:
+  web: docker build . -t sportsstore -f Dockerfile
+
+   
