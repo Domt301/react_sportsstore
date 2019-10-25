@@ -1,6 +1,6 @@
 FROM node:10.14.1
 
-RUN mkdir -p /usr/src/sportsstore
+RUN mkdir /usr/src/sportsstore
 
 COPY build /usr/src/sportsstore/build
 
