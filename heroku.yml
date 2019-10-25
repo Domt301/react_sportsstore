@@ -1,4 +1,4 @@
 build:
-  docker: build . -t sportsstore -f Dockerfile
+  docker: . -t sportsstore -f Dockerfile
 run: -p 80:80 sportstore
 
