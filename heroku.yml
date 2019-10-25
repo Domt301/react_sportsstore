@@ -1,5 +1,5 @@
 build:
   docker:
-    web: Dockerfile
+    web: . -t sportsstore -f Dockerfile
 run: 
-  web: -t sportsstore
+  web: -p 80:80 sportstore
