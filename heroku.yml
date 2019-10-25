@@ -1,4 +1,4 @@
 build:
-  docker: Dockerfile
-
-
+  docker:
+    web: Dockerfile
+      command: . -t sportsstore -f Dockerfile
